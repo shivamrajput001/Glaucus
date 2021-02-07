@@ -1,0 +1,14 @@
+Instruction to run this REST API.
+
+Step1- Checkout from git repo (https://github.com/shivamrajput001/Glaucus.git)
+Step2- Open it inside eclipse and update project using (Maven -> update project)
+Step3- Change database connection parameters (like url, user, password, schema name in url ) in hibernate.cfg.xml. 
+Step4- Run the application on server (Run As -> Run on Server)
+Step5- Open url http://localhost:8080/Glaucus/doIncrement
+Step6- Run jmeter and open "RestAPITest.jmx" file.
+Step7- After successfully loading, provide port and URL and other parameters accordingly.
+Step8- Click on start button.
+Step9- For testing go to this url (http://localhost:8080/Glaucus/doIncrement) on browser and verify the result.
+
+Create table query-
+Provided in schema.sql file
